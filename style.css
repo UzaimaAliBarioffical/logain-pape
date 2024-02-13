@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(231, 232, 232);
+}
+.contaner > h1{
+    color: blue;
+}
+.contaner{
+
+position: absolute;
+top: 30%;
+left: 14%;
+}
+
+div.parent{
+
+background-color: rgb(255, 255, 255);
+height: 200px;
+width: 200px;
+position: absolute;
+top: 20%;
+right: 300px;
+border: 2px solid #ffffff;
+border-radius: 5px;
+
+}
+.box{
+    display: flex;
+align-items: center;
+/* justify-content: center; */
+margin: 10px;
+padding: 2px;
+
+}
+.box3 >input {
+
+
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+
+}
+.box5 >input{
+
+    background-color: rgb(43, 154, 8);
+    color: aliceblue;
+    text-align: center;
+    width: 80%;
+
+}
+ 
